@@ -856,7 +856,6 @@ class ClockApp:
 
     def update_world_clocks(self):
         """Actualiza los widgets de relojes mundiales."""
-        # Limpiar widgets existentes
         for widget in self.world_clocks_container.winfo_children():
             widget.destroy()
 
@@ -869,7 +868,7 @@ class ClockApp:
                                  relief=tk.RAISED, bd=2)
             clock_frame.pack(fill=tk.X, pady=8, padx=10)
 
-            # Nombre de la zona (amigable)
+            # Nombre de la zona
             display_name = self.world_clock_manager.get_display_name(timezone)
             tk.Label(clock_frame, text=display_name, font=("Segoe UI", 12, "bold"),
                     bg=self.themes[self.theme_var.get()]["card_bg"],
@@ -881,7 +880,7 @@ class ClockApp:
                                 fg=self.themes[self.theme_var.get()]["accent"])
             time_label.pack(anchor=tk.W, padx=10, pady=(2, 8))
 
-            # Botón eliminar (si hay más de un reloj)
+            # Botón eliminar 
             if len(self.world_clock_manager.clocks) > 1:
                 btn_frame = tk.Frame(clock_frame, bg=self.themes[self.theme_var.get()]["card_bg"])
                 btn_frame.pack(anchor=tk.E, padx=10, pady=5)
