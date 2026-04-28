@@ -718,7 +718,7 @@ class ClockApp:
         self.config.set('animations', self.animations_var.get())
 
     def update_offset(self, value):
-        pass  # Will be used in update_clock
+        pass  
 
     def update_clock(self):
         offset = self.offset_var.get()
