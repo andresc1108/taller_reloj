@@ -204,7 +204,6 @@ class AudioManager:
         self.load_sounds()
 
     def load_sounds(self):
-        # Simple beep frequencies for different alert types
         self.sound_freqs = {
             'default': (880, 500),
             'gentle': (660, 300),
