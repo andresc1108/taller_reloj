@@ -444,7 +444,7 @@ class ClockApp:
                                     fg=self.themes[self.theme_var.get()]["fg"])
         self.digital_label.pack(pady=10)
 
-        # Toggle to analog button (only in digital mode)
+        # Toggle to analog button 
         self.analog_btn = tk.Button(clock_frame, text="Ver Analógico", command=self.toggle_to_analog,
                                    relief=tk.FLAT, padx=10, pady=5)
         # Initially hidden
