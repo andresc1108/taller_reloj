@@ -1,0 +1,24 @@
+{
+  "theme": "light",
+  "alarms": [
+    {
+      "time": "21:51",
+      "label": "Alarma",
+      "sound": "default",
+      "enabled": true,
+      "created": "2026-04-27T21:50:14.999524"
+    }
+  ],
+  "world_clocks": [
+    "UTC",
+    "America/New_York",
+    "Europe/London",
+    "Asia/Tokyo",
+    "America/Bogota",
+    "America/Mexico_City"
+  ],
+  "sound_enabled": true,
+  "fullscreen": false,
+  "animations": true,
+  "language": "en"
+}
