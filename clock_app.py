@@ -297,7 +297,6 @@ class ClockApp:
         # World clock labels for updates
         self.world_clock_labels = {}
 
-        # Animation variables
         self.animation_angle = 0
         self.pendulum_angle = 0
         self.animations_var = tk.BooleanVar(value=self.config.get('animations', True))
