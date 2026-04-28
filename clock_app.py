@@ -230,7 +230,7 @@ class ClockApp:
         self.audio_manager = AudioManager()
 
         self.root = tk.Tk()
-        self.root.title("Reloj Inteligente Avanzado")
+        self.root.title("ACHICHAY TIME")
         self.root.geometry("1200x800")
         self.root.resizable(True, True)
 
