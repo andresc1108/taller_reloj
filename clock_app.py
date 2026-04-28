@@ -119,7 +119,7 @@ class AlarmManager:
 
 class WorldClockManager:
     """Manages multiple world clocks with proper timezone support."""
-    # Timezone offsets respecto a UTC (hora estándar, sin daylight saving)
+    # Timezone offsets respecto a UTC 
     TIMEZONES = {
         'America/Bogota': -5,          # Colombia (predeterminado)
         'America/New_York': -5,        # Nueva York
