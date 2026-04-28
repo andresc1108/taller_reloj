@@ -503,7 +503,6 @@ class ClockApp:
         self.update_world_clocks()
 
     def create_alarms_tab(self, parent):
-        # Alarms management
         alarms_frame = tk.Frame(parent)
         alarms_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
 
